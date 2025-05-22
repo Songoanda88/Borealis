@@ -3,111 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Libro de Fantasía</title>
+    <title>Libro de Fantasía - Capítulos</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
+            background-color: #f4f4f4;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #333;
             color: white;
             text-align: center;
-            padding: 10px 0;
+            padding: 1rem;
         }
-        main {
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: white;
             padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
         h1 {
             color: #333;
         }
         h2 {
-            color: #555;
+            color: #444;
         }
-        section {
-            margin-bottom: 20px;
+        .chapter {
+            margin-bottom: 30px;
         }
         footer {
-            text-align: center;
-            padding: 10px;
             background-color: #333;
             color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
         }
     </style>
 </head>
 <body>
 
-<header>
-    <h1>Mi Libro de Fantasía</h1>
-    <p>Una historia épica de magia, misterio y aventuras.</p>
-</header>
+    <header>
+        <h1>Libro de Fantasía - Capítulos</h1>
+    </header>
 
-<main>
-    <section>
-        <h2>CAPÍTULO 1: El despertar de los viejos tiempos</h2>
-        <p>La tarde se hacía más oscura a medida que Aeris caminaba hacia la entrada del pueblo. La brisa gélida cortaba su rostro, pero él ni la notaba. Pensaba en los viejos tiempos, en cómo todo había comenzado. Lejanos recuerdos de su niñez se mezclaban con las preocupaciones de la actualidad. Su misión era importante y, aunque no le gustaba ser el centro de la atención, sabía que debía hacerlo.</p>
-        <p>Al llegar a la plaza principal de Leishaia, se encontró con varias figuras conocidas. La gente parecía tranquila, ajena al peligro que se cernía sobre el pueblo. Sin embargo, Aeris sabía que el equilibrio de su mundo estaba por cambiar, y él debía ser parte de esa transformación. Un susurro en su oído le hizo temblar. Miró a su alrededor, pero no vio a nadie.</p>
-        <p>“El despertar ha comenzado”, pensó, mientras avanzaba hacia el muelle. El barco que lo llevaría a su destino ya estaba allí, esperando. Se subió a bordo y comenzó su travesía, sin saber que en su viaje enfrentaría desafíos que pondrían a prueba no solo su valor, sino su alma misma.</p>
-    </section>
+    <div class="container">
+        <div class="chapter">
+            <h2>CAPÍTULO 1: La llegada a Leishaia</h2>
+            <p>Todo comenzó cuando Aeris, el viejo mago, llegó a Leishaia, un pintoresco pueblo donde los elfos y otras criaturas mágicas convivían en paz. Durante la época invernal, el pueblo se convertía en el punto de encuentro de los representantes de todos los reinos, quienes discutían sobre el equilibrio del mundo. Era una costumbre que se remontaba a generaciones pasadas, donde el lugar se llenaba de vida, risas y conversaciones sobre los problemas que podrían surgir en los meses venideros. Pero aquel año, algo estaba diferente.</p>
+        </div>
 
-    <section>
-        <h2>CAPÍTULO 2: El secreto de la sombra</h2>
-        <p>El viento era más fuerte cuando Aeris llegó a la ciudad de Larahel. Las montañas que rodeaban el lugar parecían abrazar la ciudad, pero también la mantenían atrapada en un frío eterno. Nadie en Leishaia le había hablado de Larahel, y esa ausencia de información solo aumentó la sensación de misterio que lo rodeaba.</p>
-        <p>Con paso firme, Aeris cruzó las calles vacías, observando los edificios que parecían inquebrantables. El aire estaba denso, cargado con una energía extraña. Cada esquina de la ciudad parecía susurrar secretos olvidados. Unos pasos resonaron en la quietud de la ciudad, y Aeris sintió una presencia. Volvió la vista y vio una figura sombría que desaparecía entre las sombras.</p>
-        <p>Aeris no estaba seguro de qué había visto, pero algo en su interior le decía que debía seguir esa pista. Se adentró en una de las plazas, donde un viejo y deteriorado edificio se erguía frente a él. La entrada estaba cerrada, pero Aeris sabía que debía entrar. La puerta cedió con un crujido, y lo primero que sintió fue el frío helado que emanaba del interior. Un susurro, casi inaudible, se coló en sus oídos: “El secreto está por ser revelado”.</p>
-    </section>
+        <div class="chapter">
+            <h2>CAPÍTULO 2: La Cueva de los Susurros</h2>
+            <p>La Cueva de los Susurros era un lugar especial dentro de Leishaia. Los habitantes del pueblo creían que los ecos de la cueva contenían antiguos secretos, y las leyendas hablaban de voces que susurraban sobre el futuro. Aeris, en su investigación, había oído que algo se cernía sobre los pueblos cercanos, y su búsqueda lo llevó hasta aquí. Sin embargo, los susurros que escuchaba no parecían ser de sabiduría, sino de advertencia.</p>
+        </div>
 
-    <section>
-        <h2>CAPÍTULO 3: La reunión de Leishaia</h2>
-        <p>El día llegó con una niebla espesa que cubría todo el pueblo de Leishaia. La reunión había sido convocada en la Torre del Sabio, un lugar que solo unos pocos elegidos podían visitar. Aeris llegó temprano y observó a los demás participantes, todos ellos con miradas graves. El ambiente era tenso. Nadie sabía qué depararía la reunión, pero todos intuían que algo grande estaba por ocurrir.</p>
-        <p>La Torre del Sabio era imponente, construida con piedras ancestrales que brillaban ligeramente bajo la luz del amanecer. Aeris subió los escalones, seguido por un grupo de elfos, en su mayoría viejos sabios que llevaban años al servicio del pueblo. Cuando entraron, la sala estaba iluminada por velas flotantes que emitían una luz cálida y reconfortante. El Sabio, una figura alta y encapuchada, estaba esperando en el centro de la habitación.</p>
-        <p>“La sombra se acerca”, dijo el Sabio con voz grave. Las palabras resonaron en la sala, dejando a todos en silencio. “Debemos prepararnos, y Aeris será el que guíe nuestra batalla”.</p>
-    </section>
+        <div class="chapter">
+            <h2>CAPÍTULO 3: La reunión de Leishaia</h2>
+            <p>Cada invierno, los distintos reinos se reunían en el pueblo élfico de Leishaia. Era una vieja costumbre que tenían para tratar los distintos temas que podían surgir a lo largo del año con el objetivo de mantener un equilibrio y tener cada lugar bajo control. Durante esos días, la cueva se llenaba de gente, casi hasta doblar su población. Era un pueblo muy hospitalario y siempre tenía muy buenas relaciones con el resto de reinos. Las reuniones comenzaban por la mañana y se extendían hasta tarde, pero siempre era un lugar de paz, a pesar de los debates intensos que se suscitaban. Sin embargo, este año algo extraño ocurrió durante el Cónclave. Una sombra oscura comenzó a crecer, y la armonía de la reunión se rompió...</p>
+        </div>
 
-    <section>
-        <h2>CAPÍTULO 4: Una visita inesperada</h2>
-        <p>Una tarde, justo antes del atardecer en Leishaia, partía Aeris en el barco rumbo a su misión. El resto del pueblo volvía a retomar su actividad, se consideraba un pueblo muy trabajador y lo hacían bajo el lema "con esfuerzo, una pizca de esporas y un rico vino de raíz no hay seta que no te haga feliz". La jornada en la mina solía ser bastante amena pese al duro hierro y carbón que extraían, pero picando y cantando se pasaban las vagonetas volando.</p>
-        <p>Rasgan, uno de los mineros, estaba llevando uno de los pesados carros de piedra al almacén cuando escuchó unos ruidos muy extraños.</p>
-        <p>¿Has oído eso Veremir? - preguntó a su compañero.</p>
-        <p>¿Oír qué? ¿Fantasmas otra vez? Tienes que dejar esa cerveza de hidromiel, viejo amigo.</p>
-        <p>No, idiota. Hay algo tras estas galerías. Al principio pensaba que tendría algún bicho en mis peludas orejas pero me las lavé hace 3 semanas. Te digo que hay algo ahí.</p>
-        <p>Almacenaron todo y volvieron con sus picos de hierro. Una, y otra, y otra vez picaban con más intensidad. Pararon un momento y apoyaron sus sucios rostros para escuchar la roca.</p>
-        <p>Por mis barbas Rasgan, creo que debo lavarme yo también. Es cierto lo que decías de los ruidos tras la pared.</p>
-        <p>Pues claro. Si no fueras tan cabeza de ajolote me habrías creído antes. Vayamos rápido a avisar al resto. - dijo algo nervioso.</p>
-        <p>Vino un buen equipo de mineros al final de la galería 3 y escucharon atentamente los sonidos. Decidieron seguir picando hasta que se abrió un pequeño hueco. El capataz Tarino desplazó algunas piedras cercanas al agujero que habían hecho, acercó su ojo bueno y se quedó de piedra. Dio unos diminutos pasos hacia detrás mientras mantenía la boca abierta sin parar de mirar hacia la pared. Todos corrieron a mirar pero no podían creer lo que vieron. Un gran nido de arañas estaba ahí mismo, pero, ¿cómo? Conocían hasta el último rincón de Leishaia y era imposible que eso llevara tanto tiempo sin haberse descubierto. De repente, de un inmenso agujero asomó una interminable y peluda pata de araña. Jamás nadie había visto algo semejante. Huyeron rápidamente en busca de ayuda. Nadie sabía qué hacer pero claramente corrían peligro de no hacer algo y acabar con ella.</p>
-    </section>
+        <div class="chapter">
+            <h2>CAPÍTULO 4: Una visita inesperada</h2>
+            <p>Una tarde, justo antes del atardecer en Leishaia, partía Aeris en el barco rumbo a su misión. El resto del pueblo volvía a retomar su actividad, se consideraba un pueblo muy trabajador y lo hacían bajo el lema "con esfuerzo, una pizca de esporas y un rico vino de raíz no hay seta que no te haga feliz". La jornada en la mina solía ser bastante amena pese al duro hierro y carbón que extraían, pero picando y cantando se pasaban las vagonetas volando. Rasgan, uno de los mineros, estaba llevando uno de los pesados carros de piedra al almacén cuando escuchó unos ruidos muy extraños...</p>
+        </div>
 
-    <section>
-        <h2>CAPÍTULO 5: El encanto de Larahel</h2>
-        <p>Aeris deambulaba sin dar crédito a lo que estaba viendo, edificios derrumbados, calles vacías y sin vida, silencio absoluto. Un contínuo escalofrío recorría su cuerpo de arriba a abajo. Todo parecía haber sido abandonado hace poco tiempo, y esa viscosa materia se había apoderado de cada rincón. No entendía qué había podido pasar, todo era nuevo para él y, aunque se veían lujosas casas y viejos jardines, allí no había nadie para disfrutarlos.</p>
-        <p>Aeris empezaba a arrepentirse de haber seguido aquel rastro en vez de subir el camino de la montaña. Quería volver a casa y avisar del tenebroso descubrimiento, pero no podía. Tenía miedo, pero debía averiguar lo que estaba pasando en las montañas de Larahel. Si hay una ciudad, ¿dónde está la gente? ¿Quién vive o vivía en ella? Y por encima de todo, ¿por qué desconocían cualquier tipo de información acerca de la ciudad?</p>
-        <p>El mago anduvo durante mucho tiempo hasta que perdió la noción del mismo. En toda la ciudad no encontró ni un alma, ni un rastro que respondiera a sus preguntas y cada vez perdía más la esperanza de poder encontrarlo. Subió a lo alto de una torre y lanzó un hechizo que iluminó toda la ciudad hasta rebotar en el techo helado y pudo ver cómo todo estaba infestado, era el momento de salir cuanto antes de allí.</p>
-        <p>Volvió al camino que apuntaba a lo alto de las montañas y siguió el sendero a través de ellas. Poco a poco bajaba la temperatura y, a su vez, crecía la tensión en Aeris. Larahel era conocida como la ciudad de hielo, situada en un precioso valle rodeado por unos picos nevados, con una estética única y una sociedad tan fría como trabajadora.</p>
-        <p>Cuando llegó a lo más alto vislumbró aquellos edificios que recordaba de sus anteriores viajes, pero el rastro de los habitantes seguía perdido. Entró en las primeras casas, había camas deshechas, un rico olor a comida enfriándose en los calderos y velas consumiendo su cera lentamente. Estaba claro que habían salido ese mismo día de sus viviendas, pero en pocos instantes todo cobraría sentido. Se adentró unos metros más y comenzó a escuchar un murmullo que provenía del Palacio de Cristal. Continuó sus pasos persiguiendo el sonido que aumentaba a la vez que se acercaba al edificio. Se paró delante del portón que estaba cerrado y respiró profundamente, movió sus pies hacia adelante lentamente, abrió tan despacio como pudo y observó atónito la escena. Todo el pueblo parecía repetir una y otra vez una oración en una lengua que no conocía mientras sus miradas parecían perderse al fondo de la sala. Nadie se giraba con su presencia aunque era más que notable, por lo que avanzó un poco más hasta alcanzar el final de la habitación.</p>
-        <p>Tras unos segundos observando escuchó como un chasquido de dedos, miró a su alrededor pero no sabía de dónde venía ese sonido. Se repitió dos veces más. Procedía de uno de los muros interiores del palacio, de un pequeño roto, se asomó y apareció una joven del pueblo, de pelo negro y tez clara, sus ojos azules parecían tristes y mostraba nerviosismo pidiéndole silencio con los dedos y que le siguiera acto seguido. El mago aunque dubitativo lo hizo y llegaron a una sala alejada y a salvo del resto de personas.</p>
-        <p>¿Cómo te llamas, niña? Lo…Loreen. - dijo susurrando.</p>
-        <p>Hola Loreen, ¿qué ha pasado aquí? Vengo desde Leishaia porque sospechábamos que algo raro estaba sucediendo en Larahel. ¿Y por qué tú no estás afectada? - preguntó nervioso.</p>
-        <p>No lo sé, pero todo empezó hace meses, desde que descubrieron aquella ciudad. Llevan desde entonces bajando a investigar y removiendo todo. Están muy raros, algunas veces actúan como si no fueran ellos mismos, otras se les ve lúcidos como antes. Yo estuve en la cabaña de mis abuelos hasta hace unos días, cuando llegué oí las historias por las calles de la ciudad, pero pensaba que eran leyendas antiguas.</p>
-        <p>¿Como si no fueran ellos? ¿Qué quieres decir?</p>
-        <p>No te miran a los ojos, no contestan, vienen aquí y están durante horas todos juntos y recitan la frase que les dijo aquel viejo, pero no sé qué significa. - explicó la niña.</p>
-        <p>Loreen, dime quién es el viejo, ¿sabes su nombre?</p>
-        <p>No, no lo escuché pero decían que era un mercante muy mayor y que tenía una cara siniestra.</p>
-        <p>¿Una cara siniestra?</p>
-        <p>Aeris palideció. No podía siquiera pensar en la posibilidad de que fuera otra vez él.</p>
-        <p>¿Lo conoces? - preguntó Loreen.</p>
-        <p>La conversación se vio interrumpida con el silencio de la sala principal. El pueblo entero dejó esas temidas oraciones y al momento se escucharon pasos hacia la salida. Aeris y Loren retrocedieron por el mismo camino y observaron cómo todo el mundo abandonaba el Palacio con normalidad y acudían a sus trabajos y hogares. Todo parecía volver a la normalidad sin sospechar qué estaba pasando en sus atormentadas mentes y sin ser conscientes de los actos de los que eran actores principales. Loren y Aeris respiraron aliviados durante unos segundos hasta que unas manos se posaron fuertemente en los hombros de ambos, quedaron inmovilizados al notar esas presencias. Les dieron la vuelta y vieron a varios habitantes sujetándolos, con una sonrisa torcida y malévola, en ese momento se dieron cuenta de que su aventura no acababa más que empezar.</p>
-    </section>
+        <div class="chapter">
+            <h2>CAPÍTULO 5: El encanto de Larahel</h2>
+            <p>Aeris deambulaba sin dar crédito a lo que estaba viendo, edificios derrumbados, calles vacías y sin vida, silencio absoluto. Un contínuo escalofrío recorría su cuerpo de arriba a abajo. Todo parecía haber sido abandonado hace poco tiempo, y esa viscosa materia se había apoderado de cada rincón. No entendía qué había podido pasar, todo era nuevo para él y, aunque se veían lujosas casas y viejos jardines, allí no había nadie para disfrutarlos. Aeris empezaba a arrepentirse de haber seguido aquel rastro en vez de subir el camino de la montaña. Quería volver a casa y avisar del tenebroso descubrimiento, pero no podía. Tenía miedo, pero debía averiguar lo que estaba pasando en las montañas de Larahel...</p>
+        </div>
 
-</main>
+    </div>
 
-<footer>
-    <p>&copy; 2025 Mi Libro de Fantasía</p>
-</footer>
+    <footer>
+        <p>&copy; 2025 Mi Libro de Fantasía</p>
+    </footer>
 
 </body>
 </html>
 
-            <p>Volvió al camino que apuntaba a lo alto de las montañas y siguió el sendero a través de ellas. Poco a poco bajaba
