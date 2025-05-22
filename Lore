@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Libro de fantasía con magia, misterio y criaturas míticas.">
+    <title>El Viaje de Amarath Galad</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #4A90E2, #9B59B6); /* Degradado de azul a morado */
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        h1 {
+            color: #4CAF50;
+        }
+        .chapter {
+            margin-bottom: 40px;
+        }
+        .chapter h2 {
+            color: #333;
+        }
+        .chapter p {
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>El Viaje de Amarath Galad</h1>
+    <p>Un relato de magia, misterio y seres míticos</p>
+</header>
+
+<main>
+    <section class="chapter">
+        <h2>Capítulo 1: El viaje</h2>
+        <p>Hubo un tiempo, en la llamada Era de los Cuentos de Hadas, que las criaturas de la luz y la oscuridad coexistían en paz y armonía, sin guerras, sin disputas. Había especies de todo tipo, los Aldeanos, protegidos por sus fieles y fornidos amigos los golems; los slimes que vivían en las profundas cuevas; los guardianes en sus prestigiosos templos marinos, etc. Todos estuvieron gobernados por unos seres especialmente particulares y de una belleza deslumbrante, los Altos Elfos, o Asur, una especie que se les consideraba semi-dioses ya que tenían capacidades mágicas ancestrales nacidas de la naturaleza pero ya no se tenía noticias de ellos hacía eras...</p>
+        <p>...Pasaron varias primaveras hasta que un día, entendió todo. Una mirada diabólica y una sonrisa perversa invadieron su cara desde ese momento. Los que le conocían cuentan que ya no era el mismo, se había vuelto más ermitaño que nunca, apenas comía y vivía entre libros y excrementos de rata que desprendían un hedor a cientos de metros. La hierba de los alrededores moría a su paso y los animales huían despavoridos. Nadie supo nada de Amarath Galad en los últimos meses.</p>
+    </section>
+
+    <section class="chapter">
+        <h2>Capítulo 2: La eterna noche</h2>
+        <p>Todo parecía normal cuando el Sol asomó por el horizonte. Era un día de festividad en el reino, el Día de la Iluminación. Una velada del solsticio de verano era un momento esperado por todos los habitantes de Myth Elessar, una gran fiesta estaba a punto de comenzar. Los astrólogos vaticinaban una gran luna llena y sería perfecta para realizar la ceremonia de los hijos del Sol en la cual los jóvenes, al llegar a los 10 años de edad, debían demostrar que eran válidos para continuar su adiestramiento con los magos de la ciudad...</p>
+        <p>...Durante los próximos años sus vidas consistieron en volver a levantar la ciudad pero construyeron una gran esfera de cristal y de poder donde sucedió la fatídica noche. Dentro de ella encerraron un monstruo de la noche al que llamaron "Pesadilla" para recordar de dónde venían. Nadie dice saber qué más pasó esa noche y si lo saben... Tienen miedo. Muchos decidieron mudarse a otro lugar en busca de la tranquilidad ya que aseguraban que Myth Elessar había sido maldita.</p>
+    </section>
+
+    <section class="chapter">
+        <h2>Capítulo 3: La reunión de Leishaia</h2>
+        <p>Cada invierno, los distintos reinos se reunían en el pueblo élfico de Leishaia. Era una vieja costumbre que tenían para tratar los distintos temas que podían surgir a lo largo del año con el objetivo de mantener un equilibrio y tener cada lugar bajo control. Durante esos días, la cueva se llenaba de gente, casi hasta doblar su población. Era un pueblo muy hospitalario y siempre tenía muy buenas relaciones con el resto de reinos...</p>
+        <p>...A la semana del viaje, el barco no podía acercarle más a las montañas heladas ya que era una cordillera escabrosa y alejada del mar. Subió a lomos de un caballo negro con manchas blancas, era muy rápido y además tenía unas patas muy fuertes. Un par de días más y logró llegar, pero nadie le recibió. Avanzó varios metros en la cueva, parecía que no había nadie, ni un alma...</p>
+    </section>
+
+    <section class="chapter">
+        <h2>Capítulo 4: Una visita inesperada</h2>
+        <p>Una tarde, justo antes del atardecer en Leishaia, partía Aeris en el barco rumbo a su misión. El resto del pueblo volvía a retomar su actividad, se consideraba un pueblo muy trabajador y lo hacían bajo el lema "con esfuerzo, una pizca de esporas y un rico vino de raíz no hay seta que no te haga feliz". La jornada en la mina solía ser bastante amena pese al duro hierro y carbón que extraían, pero picando y cantando se pasaban las vagonetas volando...</p>
+        <p>...Rápidamente salieron en búsqueda del hada Lariss. Sabían a la perfección dónde estaba su tiendita, era la más llamativa de la calle principal. Al entrar le contaron todo y le cambió completamente esa sonrisa que le caracteriza. Sin mediar palabra se metió en su trastienda y buscó los ingredientes para hacer la poción cuanto antes. Varios minutos más tarde, volvió a salir a la vez que un denso humo verde que ondeaba en el ambiente...</p>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 El Viaje de Amarath Galad. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
