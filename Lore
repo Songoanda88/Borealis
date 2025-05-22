@@ -3,85 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Libro de fantasía con magia, misterio y criaturas míticas.">
-    <title>El Viaje de Amarath Galad</title>
+    <title>Mi Libro Fantasía</title>
     <style>
         body {
+            background: linear-gradient(to right, #6a5acd, #8a2be2); /* Degradado de azul a morado */
+            color: white;
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to bottom, #4A90E2, #9B59B6); /* Degradado de azul a morado */
-            color: #333;
         }
         header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
             text-align: center;
+            padding: 30px;
+            background-color: rgba(0, 0, 0, 0.7);
         }
-        main {
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        section {
             padding: 20px;
+            margin: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+            border-radius: 10px;
         }
-        h1 {
-            color: #4CAF50;
-        }
-        .chapter {
-            margin-bottom: 40px;
-        }
-        .chapter h2 {
-            color: #333;
-        }
-        .chapter p {
-            line-height: 1.6;
+        h2 {
+            color: #f4a261;
         }
         footer {
-            background-color: #4CAF50;
-            color: white;
-            padding: 10px;
             text-align: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.7);
             position: fixed;
-            width: 100%;
             bottom: 0;
+            width: 100%;
+        }
+        .chapter {
+            margin-bottom: 20px;
         }
     </style>
 </head>
 <body>
+    <header>
+        <h1>Mi Libro Fantasía</h1>
+    </header>
 
-<header>
-    <h1>El Viaje de Amarath Galad</h1>
-    <p>Un relato de magia, misterio y seres míticos</p>
-</header>
+    <section>
+        <div class="chapter">
+            <h2>CAPÍTULO 1: La llegada a Leishaia</h2>
+            <p>Aeris había llegado a Leishaia después de un largo viaje desde las tierras cálidas de las que venía. El viento fresco del norte le acariciaba el rostro mientras miraba al horizonte, donde las montañas cubiertas de nieve parecían tocar el cielo. Se encontraba en un pueblo lejano, casi olvidado por el resto del mundo, conocido por sus mineros y sus leyendas antiguas.</p>
+            <p>Los elfos de Leishaia vivían en armonía con la naturaleza, pero también se dedicaban a la minería, extrayendo recursos de las montañas. Aeris sabía que su misión allí era importante, aunque aún no entendía el alcance de lo que estaba por descubrir.</p>
+            <p>Al llegar, fue recibido por los ancianos del pueblo, quienes le explicaron la historia de las minas y las criaturas que habitaban en las profundidades. Le hablaron de un extraño ser, un monstruo que había sido liberado por accidente, y de los rumores sobre su creciente poder.</p>
+        </div>
 
-<main>
-    <section class="chapter">
-        <h2>Capítulo 1: El viaje</h2>
-        <p>Hubo un tiempo, en la llamada Era de los Cuentos de Hadas, que las criaturas de la luz y la oscuridad coexistían en paz y armonía, sin guerras, sin disputas. Había especies de todo tipo, los Aldeanos, protegidos por sus fieles y fornidos amigos los golems; los slimes que vivían en las profundas cuevas; los guardianes en sus prestigiosos templos marinos, etc. Todos estuvieron gobernados por unos seres especialmente particulares y de una belleza deslumbrante, los Altos Elfos, o Asur, una especie que se les consideraba semi-dioses ya que tenían capacidades mágicas ancestrales nacidas de la naturaleza pero ya no se tenía noticias de ellos hacía eras...</p>
-        <p>...Pasaron varias primaveras hasta que un día, entendió todo. Una mirada diabólica y una sonrisa perversa invadieron su cara desde ese momento. Los que le conocían cuentan que ya no era el mismo, se había vuelto más ermitaño que nunca, apenas comía y vivía entre libros y excrementos de rata que desprendían un hedor a cientos de metros. La hierba de los alrededores moría a su paso y los animales huían despavoridos. Nadie supo nada de Amarath Galad en los últimos meses.</p>
-    </section>
+        <div class="chapter">
+            <h2>CAPÍTULO 2: El encuentro en la mina</h2>
+            <p>Aeris descendió a las minas con un grupo de elfos valientes. El aire era pesado y la oscuridad envolvía cada rincón. El eco de los picos resonaba por las galerías mientras los mineros seguían su trabajo. Sin embargo, algo no estaba bien. La tierra temblaba ligeramente, como si estuviera viva.</p>
+            <p>De repente, un estruendo retumbó a lo lejos, y una grieta apareció en la pared. Aeris, junto con los elfos, se apresuraron a investigar. Lo que encontraron fue mucho más aterrador de lo que esperaban: una criatura monstruosa, nacida de la oscuridad, que parecía haber estado durmiendo durante siglos.</p>
+            <p>Los elfos sabían que tenían que actuar rápido. Aeris, con su magia, comenzó a preparar un hechizo para sellar la grieta, pero no fue suficiente. El monstruo se despertó, y la batalla para proteger Leishaia estaba por comenzar.</p>
+        </div>
 
-    <section class="chapter">
-        <h2>Capítulo 2: La eterna noche</h2>
-        <p>Todo parecía normal cuando el Sol asomó por el horizonte. Era un día de festividad en el reino, el Día de la Iluminación. Una velada del solsticio de verano era un momento esperado por todos los habitantes de Myth Elessar, una gran fiesta estaba a punto de comenzar. Los astrólogos vaticinaban una gran luna llena y sería perfecta para realizar la ceremonia de los hijos del Sol en la cual los jóvenes, al llegar a los 10 años de edad, debían demostrar que eran válidos para continuar su adiestramiento con los magos de la ciudad...</p>
-        <p>...Durante los próximos años sus vidas consistieron en volver a levantar la ciudad pero construyeron una gran esfera de cristal y de poder donde sucedió la fatídica noche. Dentro de ella encerraron un monstruo de la noche al que llamaron "Pesadilla" para recordar de dónde venían. Nadie dice saber qué más pasó esa noche y si lo saben... Tienen miedo. Muchos decidieron mudarse a otro lugar en busca de la tranquilidad ya que aseguraban que Myth Elessar había sido maldita.</p>
-    </section>
+        <div class="chapter">
+            <h2>CAPÍTULO 3: El despertar del mal</h2>
+            <p>El monstruo, una gigantesca criatura de sombras, comenzó a sembrar el caos en la mina. Aeris y los elfos lucharon con valentía, pero la criatura parecía imparable. Cada golpe de su cuerpo rocoso hacía temblar las paredes, y las sombras se alargaban por todo el lugar, dificultando la visión.</p>
+            <p>Los elfos comenzaron a retroceder, sabiendo que no podían vencer a la criatura con sus armas comunes. Fue entonces cuando Artemis, la hechicera del pueblo, intervino. Usó un antiguo hechizo para contener a la criatura, pero aún así, la amenaza seguía viva.</p>
+            <p>Aeris y los elfos decidieron entonces que tenían que buscar ayuda fuera de Leishaia, en las antiguas tierras donde los viejos magos aún conservaban conocimientos perdidos. La misión estaba clara: encontrar la manera de derrotar al monstruo antes de que se desatara el caos en todo el reino.</p>
+        </div>
 
-    <section class="chapter">
-        <h2>Capítulo 3: La reunión de Leishaia</h2>
-        <p>Cada invierno, los distintos reinos se reunían en el pueblo élfico de Leishaia. Era una vieja costumbre que tenían para tratar los distintos temas que podían surgir a lo largo del año con el objetivo de mantener un equilibrio y tener cada lugar bajo control. Durante esos días, la cueva se llenaba de gente, casi hasta doblar su población. Era un pueblo muy hospitalario y siempre tenía muy buenas relaciones con el resto de reinos...</p>
-        <p>...A la semana del viaje, el barco no podía acercarle más a las montañas heladas ya que era una cordillera escabrosa y alejada del mar. Subió a lomos de un caballo negro con manchas blancas, era muy rápido y además tenía unas patas muy fuertes. Un par de días más y logró llegar, pero nadie le recibió. Avanzó varios metros en la cueva, parecía que no había nadie, ni un alma...</p>
-    </section>
+        <div class="chapter">
+            <h2>CAPÍTULO 4: Una visita inesperada</h2>
+            <p>Una tarde, justo antes del atardecer en Leishaia, partía Aeris en el barco rumbo a su misión. El resto del pueblo volvía a retomar su actividad, se consideraba un pueblo muy trabajador y lo hacían bajo el lema "con esfuerzo, una pizca de esporas y un rico vino de raíz no hay seta que no te haga feliz". La jornada en la mina solía ser bastante amena pese al duro hierro y carbón que extraían, pero picando y cantando se pasaban las vagonetas volando.</p>
+            <p>Rasgan, uno de los mineros, estaba llevando uno de los pesados carros de piedra al almacén cuando escuchó unos ruidos muy extraños. </p>
+            <p>¿Has oído eso Veremir? - preguntó a su compañero.</p>
+            <p>¿Oír qué? ¿Fantasmas otra vez? Tienes que dejar esa cerveza de hidromiel, viejo amigo.</p>
+            <p>No, idiota. Hay algo tras estas galerías. Al principio pensaba que tendría algún bicho en mis peludas orejas pero me las lavé hace 3 semanas. Te digo que hay algo ahí.</p>
+            <p>Almacenaron todo y volvieron con sus picos de hierro. Una, y otra, y otra vez picaban con más intensidad. Pararon un momento y apoyaron sus sucios rostros para escuchar la roca.</p>
+            <p>Por mis barbas Rasgan, creo que debo lavarme yo también. Es cierto lo que decías de los ruidos tras la pared. </p>
+            <p>Pues claro. Si no fueras tan cabeza de ajolote me habrías creído antes. Vayamos rápido a avisar al resto. - dijo algo nervioso.</p>
+            <p>Vino un buen equipo de mineros al final de la galería 3 y escucharon atentamente los sonidos. Decidieron seguir picando hasta que se abrió un pequeño hueco. El capataz Tarino desplazó algunas piedras cercanas al agujero que habían hecho, acercó su ojo bueno y se quedó de piedra. Dio unos diminutos pasos hacia detrás mientras mantenía la boca abierta sin parar de mirar hacia la pared. Todos corrieron a mirar pero no podían creer lo que vieron. Un gran nido de arañas estaba ahí mismo...</p>
+        </div>
 
-    <section class="chapter">
-        <h2>Capítulo 4: Una visita inesperada</h2>
-        <p>Una tarde, justo antes del atardecer en Leishaia, partía Aeris en el barco rumbo a su misión. El resto del pueblo volvía a retomar su actividad, se consideraba un pueblo muy trabajador y lo hacían bajo el lema "con esfuerzo, una pizca de esporas y un rico vino de raíz no hay seta que no te haga feliz". La jornada en la mina solía ser bastante amena pese al duro hierro y carbón que extraían, pero picando y cantando se pasaban las vagonetas volando...</p>
-        <p>...Rápidamente salieron en búsqueda del hada Lariss. Sabían a la perfección dónde estaba su tiendita, era la más llamativa de la calle principal. Al entrar le contaron todo y le cambió completamente esa sonrisa que le caracteriza. Sin mediar palabra se metió en su trastienda y buscó los ingredientes para hacer la poción cuanto antes. Varios minutos más tarde, volvió a salir a la vez que un denso humo verde que ondeaba en el ambiente...</p>
-    </section>
-
-</main>
-
-<footer>
-    <p>&copy; 2025 El Viaje de Amarath Galad. Todos los derechos reservados.</p>
-</footer>
-
-</body>
-</html>
+        <div class="chapter">
+            <h2>CAPÍTULO 5: El encanto de Larahel</h2>
+            <p>Aeris deambulaba sin dar crédito a lo que estaba viendo, edificios derrumbados, calles vacías y sin vida, silencio absoluto. Un contínuo escalofrío recorría su cuerpo de arriba a abajo. Todo parecía haber sido abandonado hace poco tiempo, y esa viscosa materia se había apoderado de cada rincón. No entendía qué había podido pasar, todo era nuevo para él y, aunque se veían lujosas casas y viejos jardines, allí no había nadie para disfrutarlos.</p>
+            <p>Aeris empezaba a arrepentirse de haber seguido aquel rastro en vez de subir el camino de la montaña. Quería volver a casa y avisar del tenebroso descubrimiento, pero no podía. Tenía miedo, pero debía averiguar lo que estaba pasando en las montañas de Larahel. Si hay una ciudad, ¿dónde está la gente? ¿Quién vive o vivía en ella? Y por encima de todo, ¿por qué desconocían cualquier tipo de información acerca de la ciudad?</p>
+            <p>El mago anduvo durante mucho tiempo hasta que perdió la noción del mismo. En toda la ciudad no encontró ni un alma, ni un rastro que respondiera a sus preguntas y cada vez perdía más la esperanza de poder encontrarlo. Subió a lo alto de una torre y lanzó un hechizo que iluminó toda la ciudad hasta rebotar en el techo helado y pudo ver cómo todo estaba infestado, era el momento de salir cuanto antes de allí.</p>
+            <p>Volvió al camino que apuntaba a lo alto de las montañas y siguió el sendero a través de ellas. Poco a poco bajaba
